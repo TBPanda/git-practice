@@ -1,0 +1,40 @@
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+.one{
+    background-color: red;
+   }
+   
+.two{
+    background-color: green;
+    }
+    
+.three{
+    background-color: yellow;
+    }
+    
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+@media (max-width:400px)
+{
+    
+    body{
+    background-color:pink;
+    }
+    
+    .flex-container{
+
+    flex-direction: column;
+        
+    }
+}
