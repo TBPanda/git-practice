@@ -5,8 +5,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
-    color:pink;
     }
 
 .one{
@@ -18,7 +16,7 @@
     }
     
 .three{
-    background-color: yellow;
+    background-color: black;
     }
     
 .flex-container{
